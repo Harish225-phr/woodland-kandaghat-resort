@@ -86,14 +86,16 @@ function ContactPage() {
         </div>
 
         <div className="container-luxe mt-12">
-          <Reveal className="rounded-3xl overflow-hidden shadow-luxe aspect-[16/8]">
-            <iframe
-              title="The Woodland Kandaghat — Map"
-              src="https://www.google.com/maps?q=Kandaghat,+Himachal+Pradesh+173215&output=embed"
-              className="w-full h-full border-0"
-              loading="lazy"
-            />
-          </Reveal>
+         <Reveal className="rounded-3xl overflow-hidden shadow-luxe aspect-[16/8]">
+  <iframe
+    title="The Woodland Kandaghat — Map"
+    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3420.7148385959963!2d77.10873947574744!3d30.978439073716217!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390f8158f84ec369%3A0xcc9c8c27e0868259!2sThe%20Woodland%20Kandaghat!5e0!3m2!1sen!2sin!4v1781876139321!5m2!1sen!2sin"
+    className="w-full h-full border-0"
+    loading="lazy"
+    referrerPolicy="no-referrer-when-downgrade"
+    allowFullScreen
+  />
+</Reveal>
         </div>
       </section>
     </>
