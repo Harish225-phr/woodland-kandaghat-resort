@@ -153,8 +153,8 @@ function HomePage() {
 
           <div className="grid md:grid-cols-2 gap-8 mt-12">
             {[
-              { img: room1, name: "Deluxe Valley View", price: "₹1,550", desc: "Double bed, panoramic valley view, smart TV, attached bath." },
-              { img: room2, name: "Premium Family Room", price: "₹2,660", desc: "Spacious family layout, jungle views, daily housekeeping." },
+              { img: room1, name: "Deluxe Room", price: "₹3,000", desc: "Double bed, panoramic valley view, smart TV, attached bath." },
+              { img: room2, name: "Super Deluxe Room", price: "₹4,000", desc: "Spacious layout, premium furnishings, jungle views, daily housekeeping." },
             ].map((r, i) => (
               <Reveal key={r.name} delay={i * 120}>
                 <article className="group relative rounded-3xl overflow-hidden shadow-luxe hover-lift bg-white">

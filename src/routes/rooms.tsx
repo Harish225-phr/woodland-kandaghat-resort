@@ -11,9 +11,9 @@ export const Route = createFileRoute("/rooms")({
   head: () => ({
     meta: [
       { title: "Rooms & Suites — The Woodland Kandaghat" },
-      { name: "description", content: "Deluxe valley-view and family rooms at The Woodland Kandaghat. Starting from ₹1,550 per night — Smart TV, free WiFi, daily housekeeping." },
+      { name: "description", content: "Deluxe and Super Deluxe valley-view rooms at The Woodland Kandaghat. Starting from ₹3,000 per night — Smart TV, free WiFi, daily housekeeping." },
       { property: "og:title", content: "Rooms & Suites — The Woodland Kandaghat" },
-      { property: "og:description", content: "Plush deluxe rooms with valley and jungle views from ₹1,550 / night." },
+      { property: "og:description", content: "Plush Deluxe and Super Deluxe rooms with valley and jungle views from ₹3,000 / night." },
       { property: "og:url", content: "/rooms" },
       { property: "og:image", content: room1 },
     ],
@@ -34,12 +34,12 @@ const features = [
 
 const rooms = [
   {
-    img: room1, name: "Deluxe Valley View",
-    price: "₹1,550", desc: "Plush double bed, private balcony with sweeping valley views and a cozy seating nook.",
+    img: room1, name: "Deluxe Room",
+    price: "₹3,000", desc: "Plush double bed, private balcony with sweeping valley views and a cozy seating nook.",
   },
   {
-    img: room2, name: "Premium Family Room",
-    price: "₹2,660", desc: "Spacious family-friendly layout with jungle views and a relaxing lounge corner.",
+    img: room2, name: "Super Deluxe Room",
+    price: "₹4,000", desc: "Spacious layout with premium furnishings, jungle views and a relaxing lounge corner.",
   },
 ];
 
@@ -57,7 +57,7 @@ function RoomsPage() {
             <h1 className="mt-4 font-display text-5xl sm:text-7xl max-w-3xl leading-[1.05]">
               Rooms designed around the <span className="text-gradient-gold">view</span>
             </h1>
-            <p className="mt-5 max-w-xl text-white/85 text-lg">Plush interiors, mountain balconies & quiet evenings. Starting from ₹1,550 / night.</p>
+            <p className="mt-5 max-w-xl text-white/85 text-lg">Plush interiors, mountain balconies & quiet evenings. Starting from ₹3,000 / night.</p>
             <div className="mt-7 flex flex-wrap gap-3">
               <Link to="/contact" className="gradient-gold text-[color:var(--forest)] font-semibold px-7 py-3.5 rounded-full shadow-luxe hover:scale-[1.04] transition-transform">
                 Book Your Stay
