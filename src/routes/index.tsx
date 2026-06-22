@@ -183,20 +183,25 @@ function HomePage() {
         </div>
       </section>
 
-      {/* PARALLAX EXPERIENCE */}
-      <section
-        className="relative h-[60vh] min-h-[440px] bg-fixed bg-cover bg-center"
-        style={{ backgroundImage: `url(${terrace})` }}
-      >
-        <div className="absolute inset-0 bg-[color:var(--forest)]/70" />
+      {/* SCENIC PARALLAX VIDEO */}
+      <section className="relative h-[90vh] min-h-[560px] w-full overflow-hidden">
+        <div className="absolute inset-0">
+          <LuxuryVideo src={outsideViewVideo} poster={terrace} />
+          <div className="absolute inset-0 bg-gradient-to-b from-[color:var(--forest)]/55 via-black/40 to-[color:var(--forest)]/80" />
+        </div>
         <div className="relative h-full container-luxe flex items-center justify-center text-center text-white">
           <Reveal>
             <span className="eyebrow !text-[color:var(--gold)]">A Luxury Experience</span>
-            <h2 className="mt-5 font-display text-4xl sm:text-6xl max-w-3xl">Mornings of mist. Evenings of golden pine light.</h2>
-            <p className="mt-6 max-w-xl mx-auto text-white/80">Curated experiences from sunrise tea on the deck to candle-lit family dinners overlooking the valley.</p>
+            <h2 className="mt-5 font-display text-5xl sm:text-7xl max-w-4xl leading-[1.05]">
+              Wake Up To <span className="text-gradient-gold">Himalayan Views</span>
+            </h2>
+            <p className="mt-6 max-w-xl mx-auto text-white/85 text-lg">
+              Mornings of mist, evenings of golden pine light — your private mountain sanctuary.
+            </p>
           </Reveal>
         </div>
       </section>
+
 
       {/* AMENITIES */}
       <section className="section-y bg-[color:var(--beige)]">
