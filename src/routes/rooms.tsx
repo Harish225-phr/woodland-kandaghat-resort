@@ -1,9 +1,11 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { Reveal } from "../components/site/Reveal";
+import { LuxuryVideo } from "../components/site/LuxuryVideo";
 import { BedDouble, Bath, Wifi, Tv, Mountain, Sparkles, Flame, ArrowRight } from "lucide-react";
 import room1 from "../assets/room1.jpg";
 import room2 from "../assets/room2.jpg";
 import loungeView from "../assets/lounge-view.jpg";
+import roomsVideo from "../assets/hotel rooms.mp4";
 
 export const Route = createFileRoute("/rooms")({
   head: () => ({
