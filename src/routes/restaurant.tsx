@@ -68,28 +68,7 @@ function RestaurantPage() {
         </div>
       </section>
 
-      <section className="section-y bg-[color:var(--beige)]">
-        <div className="container-luxe">
-          <Reveal className="text-center max-w-2xl mx-auto">
-            <span className="eyebrow">Signature Dishes</span>
-            <h2 className="mt-3 font-display text-4xl text-[color:var(--forest)]">A few guest favourites</h2>
-          </Reveal>
-          <div className="grid md:grid-cols-3 gap-6 mt-10">
-            {[
-              { n: "Pahadi Rajma Chawal", d: "Slow-cooked hill kidney beans with steamed basmati." },
-              { n: "Sarson Da Saag & Makki Roti", d: "A North Indian classic, served warm." },
-              { n: "Himalayan Thali", d: "A curated platter of the region’s best flavours." },
-            ].map((m, i) => (
-              <Reveal key={m.n} delay={i * 100}>
-                <div className="glass-card rounded-3xl p-7 hover-lift">
-                  <h3 className="font-display text-xl text-[color:var(--forest)]">{m.n}</h3>
-                  <p className="mt-2 text-sm text-[color:var(--muted-foreground)]">{m.d}</p>
-                </div>
-              </Reveal>
-            ))}
-          </div>
-        </div>
-      </section>
+      
 
       <section className="section-y">
         <div className="container-luxe grid lg:grid-cols-2 gap-12 items-center">
