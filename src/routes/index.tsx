@@ -2,7 +2,7 @@ import { createFileRoute, Link } from "@tanstack/react-router";
 import {
   Wifi, Car, UtensilsCrossed, Users, BellRing, Mountain,
   Sparkles, Flame, Zap, ConciergeBell, Trees, Stethoscope,
-  Star, ArrowRight, Calendar,
+  Star, ArrowRight, MapPin, Calendar,
 } from "lucide-react";
 import { Reveal } from "../components/site/Reveal";
 import { LuxuryVideo } from "../components/site/LuxuryVideo";
