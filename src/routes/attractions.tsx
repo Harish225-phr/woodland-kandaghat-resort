@@ -3,15 +3,15 @@ import { Reveal } from "../components/site/Reveal";
 import { MapPin, ArrowUpRight } from "lucide-react";
 import terrace from "../assets/terrace-view.jpg";
 
-import sadhupul from "../assets/Sadhupul.jpg"
-import chail from "../assets/Chail.jpg";
-import kutharFort from "../assets/kuthar fort.jpg";
-import karolTibbaTrek from "../assets/karol tibba trek.jpg";
-import mohanShaktiNationalHeritagePark from "../assets/Mohan Shakti National Heritage Park.jpg";
-import taraDeviTemple from "../assets/Tara Devi Temple.jpg";
-import theRidgeShimla from "../assets/The Ridge, Shimla.jpg";
-import jakhooTemple from "../assets/Jakhoo Temple.jpg";
-import indianInstituteOfAdvancedStudy from "../assets/indian Institute of Advanced Study.jpg";
+import sadhupul from "@/assets/Sadhupul.jpg"
+import chail from "@/assets/Chail.jpg";
+import kutharFort from "@/assets/kuthar fort.jpg";
+import karolTibbaTrek from "@/assets/karol tibba trek.jpg";
+import mohanShaktiNationalHeritagePark from "@/assets/Mohan Shakti National Heritage Park.jpg";
+import taraDeviTemple from "@/assets/Tara Devi Temple.jpg";
+import theRidgeShimla from "@/assets/The Ridge, Shimla.jpg"
+import jakhooTemple from "@/assets/Jakhoo Temple.jpg";
+import indianInstituteOfAdvancedStudy from "@/assets/indian Institute of Advanced Study.jpg";
 
 const heroImgs = [
   sadhupul,
